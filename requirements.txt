@@ -4,3 +4,4 @@
 -e git+https://github.com/junetigerlee/python-wso2-apim-publisherclient.git
 -e git+https://github.com/junetigerlee/python-wso2-apim-storeclient.git
 -e git+https://github.com/junetigerlee/python-wso2-apim-adminclient.git
+-e git+https://github.com/junetigerlee/python-wso2-apim-tokenclient.git
