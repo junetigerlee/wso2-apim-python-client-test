@@ -26,3 +26,36 @@ try:
     pprint(api_response)
 except ApiException as e:
     print("Exception when calling TokenApi->token_post: %s\n" % e)
+
+# refresh_token
+grant_type = 'refresh_token' # str |
+refresh_token = 'a61dc0d8-31b8-34fb-a4e0-ee95707c4b4b' # str |  (optional)
+try:
+    # generate access tokens and authorize them
+    api_response = api_instance.token_post(grant_type, refresh_token=refresh_token, scope=scope)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling TokenApi->token_post: %s\n" % e)
+
+
+# refresh_token
+grant_type = 'refresh_token' # str |
+refresh_token = 'a61dc0d8-31b8-34fb-a4e0-ee95707c4b4b' # str |  (optional)
+try:
+    # generate access tokens and authorize them
+    api_response = api_instance.token_post(grant_type, refresh_token=refresh_token, scope=scope)
+    pprint(api_response)
+except ApiException as e:
+    print("Exception when calling TokenApi->token_post: %s\n" % e)
+
+
+# # client_credentials
+# grant_type = 'client_credentials' # str |
+#
+# try:
+#     # generate access tokens and authorize them
+#     api_response = api_instance.token_post(grant_type)
+#     pprint(api_response)
+# except ApiException as e:
+#     print("Exception when calling TokenApi->token_post: %s\n" % e)
+
